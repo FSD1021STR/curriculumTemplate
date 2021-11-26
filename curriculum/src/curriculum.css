@@ -1,3 +1,14 @@
-p {
-    display: inline;
+.header {
+  display: flex;
+}
+
+h1 {
+  margin-left: 4px;
+}
+
+.values {
+  margin-left: 40px;
+}
+hr {
+    margin: 0;
 }
