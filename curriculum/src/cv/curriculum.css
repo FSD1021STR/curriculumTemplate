@@ -1,0 +1,26 @@
+.whole {
+  background-color: rgb(124, 124, 223);
+  font-family: cursive;
+}
+
+.cv {
+  display: flex;
+  justify-content: center;
+}
+
+.proSerg {
+  width: 150px;
+  height: 150px;
+  border-radius: 45%;
+  -webkit-border-radius: 45%;
+  -moz-border-radius: 45%;
+  -ms-border-radius: 45%;
+  -o-border-radius: 45%;
+}
+.personalInfo {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  align-items: flex-start;
+  justify-content: space-around;
+}
