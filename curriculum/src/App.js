@@ -1,13 +1,13 @@
-import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
 import Curriculum from "./curriculum";
-import Formulario from "./form";
+
 
 function App() {
+
   return (
     <div>
-      <Formulario />
-    </div>
+       <Curriculum/>
+    </div>   
   );
 }
 
