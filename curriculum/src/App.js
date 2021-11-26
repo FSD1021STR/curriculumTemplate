@@ -6,7 +6,7 @@ import Formulario from "./form";
 function App() {
   return (
     <div>
-      <Formulario />
+      hola
     </div>
   );
 }
