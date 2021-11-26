@@ -1,3 +1,9 @@
+.header {
+    display: flex;
+}
+h1 {
+    margin-left: 4px;
+}
 p {
     display: inline;
 }
