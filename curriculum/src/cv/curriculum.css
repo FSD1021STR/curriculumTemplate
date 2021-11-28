@@ -1,26 +1,78 @@
 .whole {
-  background-color: rgb(124, 124, 223);
-  font-family: cursive;
+  background-image: url("https://www.qualitydevs.com/wp-content/uploads/2020/10/Full-Stack-Developer--1288x724.jpg");
+  background-size: cover;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
 }
 
 .cv {
   display: flex;
   justify-content: center;
+  color: white;
 }
 
 .proSerg {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border-radius: 45%;
   -webkit-border-radius: 45%;
   -moz-border-radius: 45%;
   -ms-border-radius: 45%;
   -o-border-radius: 45%;
+  box-shadow: black 5px, 5px, 5px, black;
+  padding: 10px;
 }
 .personalInfo {
+  background-color: rgba(0, 0, 0, 0.575);
   display: flex;
   flex-direction: row;
   margin: 20px;
   align-items: flex-start;
   justify-content: space-around;
+  color: white;
+  border-radius: 30%;
+  -webkit-border-radius: 30%;
+  -moz-border-radius: 30%;
+  -ms-border-radius: 30%;
+  -o-border-radius: 30%;
+}
+
+.acTitle {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.575);
+  border-radius: 50%;
+  width: 300px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.acTitleFlex {
+  display: flex;
+  justify-content: center;
+}
+
+.nsd {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.575);
+  border-radius: 20%;
+  -webkit-border-radius: 20%;
+  -moz-border-radius: 20%;
+  -ms-border-radius: 20%;
+  -o-border-radius: 20%;
+  margin: 10px;
+}
+.ssubjets {
+  display: flex;
+  justify-content: center;
+}
+
+.subjets {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 30px;
+  margin-right: 30px;
 }
