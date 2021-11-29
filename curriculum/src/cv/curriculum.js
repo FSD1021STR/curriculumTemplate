@@ -1,6 +1,10 @@
 import React from "react";
 import "./curriculum.css";
-import ProSerg from "./ProSerg.jpg";
+import ProSerg from "./ProSerg.jpg"; 
+import HTML from "./html.png";
+import CSS from "./css1.png"
+import JS from "./JS.png";
+import Icons from "./icos.js";
 
 export default function Curriculum() {
   return (
@@ -45,11 +49,11 @@ export default function Curriculum() {
             <div className="front end">
               <h3>Front End</h3>
               <div>
-                <ul>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>JavaScript</li>
-                  <li>React</li>
+                <ul className="frontList">
+                  <li><Icons tech="HTML" icon={HTML}/></li>
+                  <li><Icons tech="CSS" icon={CSS}/></li>
+                  <li><Icons tech="JavaScript" icon={JS}/> </li>
+                  <li><Icons/></li>
                 </ul>
               </div>
 
@@ -59,8 +63,8 @@ export default function Curriculum() {
                 <div>
                   <ul>
                     <li>MySql</li>
-                    <li>MongoDB</li>
-                    <li>Oracle</li>
+                    <li>MongoDB </li>
+                    <li>Oracle </li>
                   </ul>
               </div>
             </div>
